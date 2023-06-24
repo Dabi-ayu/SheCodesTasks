@@ -1,0 +1,39 @@
+ .container {
+     width: 450px;
+ }
+
+ .weather-info {
+     padding: 20px 0px;
+     display: flex;
+     justify-content: space-evenly;
+     gap: 40px;
+ }
+
+ .temp-degree {
+     font-size: 60px;
+     font-weight: 500;
+     margin-top: 48px;
+ }
+
+ .differ-units {
+     font-size: 18px;
+     position: relative;
+     top: -34px;
+ }
+
+ #unit-celcuis,
+ #unit-farad {
+     cursor: pointer;
+     text-decoration: none;
+ }
+
+ .form-flex {
+     display: flex;
+     gap: 5px;
+ }
+
+ .deg-sign {
+     font-size: 14px;
+     position: relative;
+     top: -34px;
+ }
